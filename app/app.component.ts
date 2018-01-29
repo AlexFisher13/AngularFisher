@@ -2,12 +2,6 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: 'my-app',
-    template: '<ul><li *ngFor="let name of names">Hello {{name}}</li></ul>'
+    templateUrl: 'app/app.component.html'
 })
-export class AppComponent {
-    names: string[];
-
-    constructor() {
-        this.names = ['Fisher', 'Johni', 'Misha', 'Vlad', 'Max'];
-    }
-}
+export class AppComponent {}

@@ -1,0 +1,9 @@
+:host {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list {
+    cursor: pointer;
+}
+.list > li:hover {
+    font-weight: bold;
+}
